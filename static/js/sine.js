@@ -4,13 +4,13 @@ $(document).ready(function(){
 		SineCanvas.effectiveSpeed = 3.5;
 	})
 });
-var color = "rgba(255,125,0,0.2)";
+var color = "rgba(0,125,255,0.2)";
 var SineCanvas = {
 	speed : 0.2,
 	effectiveSpeed : 0.2,
 	frequency : 20,
 	step : -4,
-	color : "rgba(255,125,0,0.2)",
+	color : "rgba(0,125,255,0.2)",
 	bubbleColor : "rgba(255,255,255,0.5)",
 	plotSine : function (ctx, xOffset, yOffset) {
 		var width = ctx.canvas.width;
